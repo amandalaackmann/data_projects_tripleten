@@ -1,0 +1,48 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Sprint 6 \'96 Shopify App Analysis with Power BI\
+\
+## \uc0\u55357 \u56524  Objective\
+Analyze the Shopify app marketplace to determine the key factors contributing to app success, including review patterns, developer responsiveness, and category-level performance, using interactive Power BI dashboards.\
+\
+## \uc0\u55357 \u57056  Tools & Skills Used\
+- Power BI (data modeling, DAX formulas, dashboard creation)  \
+- Excel (`shopify.xlsx` for data source)  \
+- KPI cards, line charts, scatterplots, bar charts  \
+- Data relationships and joins in Power BI  \
+- Business analysis: app performance evaluation, review sentiment analysis, developer responsiveness metrics  \
+\
+## \uc0\u55357 \u56522  Key Steps\
+1. **Data connection & modeling** \'96 Imported and modeled `apps`, `apps_categories`, `categories`, and `reviews` tables from `shopify.xlsx`.  \
+2. **App landscape analysis** \'96 Created KPIs and visualizations to show:  \
+   - Unique number of apps (KPI card)  \
+   - Total reviews over time (line chart)  \
+   - Relationship between review count and average rating (scatterplot with annotations)  \
+3. **Review analysis** \'96 Developed DAX-calculated columns:  \
+   - `helpful_reviews` = `rating * (1 + helpful_count)` to weigh reviews by perceived helpfulness  \
+   - `developer_answered` flag to track developer responsiveness  \
+   - Visualized average helpful reviews and responsiveness vs. ratings  \
+4. **App reviews & developer insights** \'96 Established many-to-one relationship between Reviews and Apps tables. Built:  \
+   - Developer vs. total ratings (bar chart)  \
+   - Developer vs. average helpful reviews (bar chart)  \
+   - Most responsive developers with reviews count > 500 (filtered bar chart)  \
+5. **Dashboard creation** \'96 Combined all visuals into a multi-page Power BI report with dedicated pages for app landscape, reviews, and developer analysis.\
+\
+## \uc0\u55357 \u56520  Results / Insights\
+- Identified **top-performing developers** with consistently high ratings and responsiveness.  \
+- Found that **developer responsiveness** correlates with higher average ratings.  \
+- Revealed categories where apps have strong engagement but low ratings \'97 potential opportunities for improvement.  \
+- Highlighted developers with large review volumes but low helpful review scores, indicating possible quality concerns.\
+\
+## \uc0\u55357 \u56764  Project Screenshots\
+*(Add screenshots from your Power BI report here)*  \
+\
+## \uc0\u55357 \u56514  Files in this Folder\
+- `shopify.xlsx` \'97 Main dataset (apps, categories, reviews)  \
+- Power BI file (`.pbix`) \'97 All dashboards, data model, and DAX calculations  \
+}
