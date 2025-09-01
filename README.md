@@ -9,3 +9,4 @@ Projects I completed while attending the Data Analysis TripleTen Bootcamp.
 | 4 | Tableau Dashboards & Data Storytelling | Built interactive dashboards in Tableau to present KPIs, user behavior, and business performance with a focus on clarity, UX, and analytical storytelling. |
 | 5 | A/B Testing & Experiment Analysis | Conducted hypothesis-driven A/B testing to measure the impact of product changes on user behavior and business KPIs, applying statistical methods to validate results. |
 | 6 | Power BI KPI Monitoring Dashboard | Designed and developed interactive Power BI dashboards integrating multiple data sources to enable real-time KPI tracking and actionable decision-making for stakeholders. |
+| 7 | Final Project – Zomato Performance Analysis | Evaluated restaurant and cuisine sales performance using Excel and Tableau; built dashboards and delivered recommendations to improve revenue through top partnerships, cuisine focus, ratings, and metro market strategies. |
