@@ -25,8 +25,8 @@ Evaluate sales performance across restaurants and cuisines to identify top reven
   - Invest in metro city markets  
 
 ## 🖼 Project Screenshots
-![Executive KPI Dashboard](images/zomato_dashboard.png)  
-![City Revenue Map](images/zomato_citymap.png)  
+![Executive KPI Dashboard](https://github.com/user-attachments/assets/af35435e-7e88-4147-8a1b-e7cc93a566d4)  
+![City Revenue Map](https://github.com/user-attachments/assets/d16cd952-c685-4513-81e2-ba7bec365afc)  
 
 ## 🌐 Tableau Public Link
 [View my Tableau workbook here](https://public.tableau.com/views/Zomato-RestaurantPerformanceDashboardProject/Zomato-RestaurantAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
